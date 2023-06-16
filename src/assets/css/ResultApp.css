@@ -1,0 +1,153 @@
+.card1 {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 2rem;
+    border-radius: 10%;
+    width: 50%;
+    text-align: center;
+}
+
+.card2 {
+    border-radius: 10%;
+    padding: 2rem;
+    width: 50%;
+    text-align: center;
+}
+
+.parent {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_card {
+    border-radius: 10%;
+    width: 50vw;
+    height: 60vh;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+
+.heading {
+    color: hsl(241, 100%, 89%);
+    margin-bottom: 1rem;
+}
+
+.num {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.circle {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    margin: 1rem auto;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.marks {
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+}
+
+.t_marks {
+    color: hsl(241, 100%, 89%);
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+}
+
+.summary-card {
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.summary-card-text {
+    margin-left: 0.5rem;
+    font-weight: 600;
+}
+
+.b-t-mark {
+    color: rgb(120, 120, 120);
+}
+
+.b-o-mark {
+    color: black;
+}
+
+.button {
+    padding: 0.7rem 5.2rem;
+    border-radius: 4rem;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsl(241, 81%, 54%));
+    border: none;
+    color: hsl(0, 0%, 100%);
+    margin-top: 2rem;
+}
+
+.button:hover {
+    background: linear-gradient(to bottom, rgb(58, 58, 58), rgb(58, 58, 58));
+}
+
+.left {
+    justify-self: start;
+}
+
+.right {
+    justify-self: end;
+}
+
+.flex {
+    display: flex;
+}
+
+.container-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+    .main_card {
+        width: 100%;
+        border-radius: 0%;
+        box-shadow: none;
+        display: inline;
+    }
+
+    .parent {
+        display: block;
+    }
+
+    .card1 {
+        width: 100%;
+        border-radius: 0%;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+    }
+
+    .card2 {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .button {
+        padding: 0.9rem 6rem;
+        border-radius: 4rem;
+        background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsl(241, 81%, 54%));
+        border: none;
+        color: hsl(0, 0%, 100%);
+    }
+}
